@@ -1,0 +1,113 @@
+* {
+			box-sizing: border-box;
+			
+		}
+		
+
+		body{
+			margin-right: 0px;
+			margin-left: 0px;
+			font-family:Gill Sans, Gill Sans MT, Calibri, serif;
+		}
+		h1 {
+		  margin-bottom: 50px;
+		  text-align: center;
+		  
+		}
+		.p1,.p2 ,.p3 {
+			padding-top: 25px;
+			padding-left: 5px;
+			padding-bottom: auto ;
+		}
+		.p2 ,.p3 {
+			
+			padding-right: 35px;
+		}
+		.p1 {
+			
+			padding-right: 15px;
+		}
+		 .p2{
+			margin-left: 35px;
+		}
+  /* for desktop web*/
+		.row{
+			width: 100%;
+		}
+		@media(min-width: 992px){
+		.col-md-1,.col-md-2,.col-md-3,.col-md-4,
+		.col-md-5,.col-md-6,.col-md-7,.col-md-8,
+		.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+			float: left;
+			
+		}
+/*i need just four cols for my sitution*/
+		.col-md-1{
+			width: 8.33%;
+		}
+		.col-md-2{
+			width: 16.66%;
+		}
+		.col-md-3{
+			width: 25%;
+		}
+		.col-md-4{
+			width: 33.33%;
+
+		}
+		
+	}
+	p{
+			border: 2px solid black;/*i know,shoulde use 1px but i prefer 2 px */
+			background-color:rgb(153,153,153);
+			margin-left: auto;
+			margin-right: auto;
+			color: rgb(25,09,52);
+			width:90%;
+			height: 130px;
+			overflow: auto;
+			}
+			section{
+				border: 2px solid black;
+				width: 120px;
+				height: 25px;
+				text-align: center;
+
+
+			}
+			/*div{
+			position: relative;
+			}*/
+			#master_div{
+				
+				margin-top: 0px;
+				margin-right: 0px;
+				position: relative;
+				
+			}
+			#sec1{
+				background-color: rgb(213,152,152);
+				color: rgb(25,09,52);
+				position: absolute;
+				top: 15px;
+				right:22px; 
+				
+
+			}
+			#sec2{
+				background-color: rgb(193,69,35);
+				color: rgb(255,255,255);
+				position: absolute;
+				top: 15px;
+				right:11px;
+
+			}
+			#sec3{
+				background-color: rgb(229,209,152);
+				color: rgb(25,09,52);
+				position: absolute;
+				top: 15px;
+				right:23px;
+			}
+			
+			
